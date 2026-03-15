@@ -27,14 +27,18 @@ namespace WinFormsClase
         private String Descripcion; // Almacena el detalle de la tarea
         private DateTime Fecha;     // Almacena la fecha de vencimiento o creación
         private bool Completada;    // Indica si la tarea está terminada o no
+        private bool EsPrioridadAlta;
+        private String Categoria;
 
         // Constructor para inicializar todos los campos de la tarea
-        public Tarea(String Titulo, String Descripcion, bool Completada, DateTime Fecha)
+        public Tarea(string Titulo, string Descripcion, bool Completada, DateTime Fecha, bool EsPrioridadAlta, string Categoria)
         {
-            this.Titulo = Titulo;           // Asigna el título a través de la propiedad
-            this.Descripcion = Descripcion; // Asigna la descripción directamente
-            this.Completada = Completada;   // Establece el estado inicial
-            this.Fecha = Fecha;             // Establece la fecha recibida
+            this.Titulo = Titulo;
+            this.Descripcion = Descripcion;
+            this.Completada = Completada;
+            this.Fecha = Fecha;
+            this.EsPrioridadAlta = EsPrioridadAlta;
+            this.Categoria = Categoria;
         }
     }
 }

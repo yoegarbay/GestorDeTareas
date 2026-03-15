@@ -38,6 +38,10 @@
             label4 = new Label();
             button2 = new Button();
             button3 = new Button();
+            chkPrioridadAlta = new CheckBox();
+            cmbCategoria = new ComboBox();
+            lblContadorTareas = new Label();
+            button4 = new Button();
             SuspendLayout();
             // 
             // dateTimePicker1
@@ -133,12 +137,52 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click_1;
             // 
+            // chkPrioridadAlta
+            // 
+            chkPrioridadAlta.AutoSize = true;
+            chkPrioridadAlta.Location = new Point(12, 312);
+            chkPrioridadAlta.Name = "chkPrioridadAlta";
+            chkPrioridadAlta.Size = new Size(83, 19);
+            chkPrioridadAlta.TabIndex = 13;
+            chkPrioridadAlta.Text = "checkBox1";
+            chkPrioridadAlta.UseVisualStyleBackColor = true;
+            // 
+            // cmbCategoria
+            // 
+            cmbCategoria.FormattingEnabled = true;
+            cmbCategoria.Location = new Point(129, 316);
+            cmbCategoria.Name = "cmbCategoria";
+            cmbCategoria.Size = new Size(121, 23);
+            cmbCategoria.TabIndex = 14;
+            // 
+            // lblContadorTareas
+            // 
+            lblContadorTareas.AutoSize = true;
+            lblContadorTareas.Location = new Point(270, 322);
+            lblContadorTareas.Name = "lblContadorTareas";
+            lblContadorTareas.Size = new Size(38, 15);
+            lblContadorTareas.TabIndex = 15;
+            lblContadorTareas.Text = "label1";
+            // 
+            // button4
+            // 
+            button4.Location = new Point(270, 353);
+            button4.Name = "button4";
+            button4.Size = new Size(157, 23);
+            button4.TabIndex = 16;
+            button4.Text = "btnLimpiarCampos";
+            button4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.foto_pppp;
             ClientSize = new Size(800, 450);
+            Controls.Add(button4);
+            Controls.Add(lblContadorTareas);
+            Controls.Add(cmbCategoria);
+            Controls.Add(chkPrioridadAlta);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label4);
@@ -167,5 +211,9 @@
         private Label label4;
         private Button button2;
         private Button button3;
+        private CheckBox chkPrioridadAlta;
+        private ComboBox cmbCategoria;
+        private Label lblContadorTareas;
+        private Button button4;
     }
 }
