@@ -127,5 +127,8 @@ namespace WinFormsClase
         {
             MarcarPrioridadAlta();
         }
+
+        // Funcionalidad de login
+        Console.WriteLine("Login implementado");
     }
 }
