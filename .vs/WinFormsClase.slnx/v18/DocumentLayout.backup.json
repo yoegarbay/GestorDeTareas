@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yoel\\GestorDeTareas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8C80EBB-3EC9-5B73-B551-E37AA7018CF9}|WinFormsClase\\WinFormsClase.csproj|C:\\Users\\yoel\\GestorDeTareas\\winformsclase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E8C80EBB-3EC9-5B73-B551-E37AA7018CF9}|WinFormsClase\\WinFormsClase.csproj|solutionrelative:winformsclase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8C80EBB-3EC9-5B73-B551-E37AA7018CF9}|WinFormsClase\\WinFormsClase.csproj|c:\\users\\yoel\\gestordetareas\\winformsclase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8C80EBB-3EC9-5B73-B551-E37AA7018CF9}|WinFormsClase\\WinFormsClase.csproj|solutionrelative:winformsclase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C80EBB-3EC9-5B73-B551-E37AA7018CF9}|WinFormsClase\\WinFormsClase.csproj|c:\\users\\yoel\\gestordetareas\\winformsclase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E8C80EBB-3EC9-5B73-B551-E37AA7018CF9}|WinFormsClase\\WinFormsClase.csproj|solutionrelative:winformsclase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8C80EBB-3EC9-5B73-B551-E37AA7018CF9}|WinFormsClase\\WinFormsClase.csproj|c:\\users\\yoel\\gestordetareas\\winformsclase\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,30 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsClase\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.Designer.cs",
-              "RelativeToolTip": "WinFormsClase\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T09:14:40.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsClase\\Form1.cs",
               "ToolTip": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.cs",
               "RelativeToolTip": "WinFormsClase\\Form1.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAuwIAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAuwIMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T08:59:23.254Z",
               "EditorCaption": ""
@@ -72,6 +59,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsClase\\Form1.cs",
+              "ToolTip": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsClase\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:12:22.539Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsClase\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.Designer.cs",
+              "RelativeToolTip": "WinFormsClase\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:14:40.374Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GestorTareas.cs",
               "DocumentMoniker": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\GestorTareas.cs",
@@ -81,18 +92,6 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAgwCsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T15:39:10.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsClase\\Form1.cs",
-              "ToolTip": "C:\\Users\\yoel\\GestorDeTareas\\WinFormsClase\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsClase\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T09:12:22.539Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
