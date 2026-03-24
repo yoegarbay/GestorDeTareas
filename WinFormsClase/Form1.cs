@@ -127,8 +127,5 @@ namespace WinFormsClase
         {
             MarcarPrioridadAlta();
         }
-
-        // Funcionalidad de registro
-        Console.WriteLine("Registro implementado");
     }
 }
