@@ -11,8 +11,8 @@ namespace WinFormsClase
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            // Funcionalidad de login
-            Console.WriteLine("Login implementado");
+            // Funcionalidad de registro
+            Console.WriteLine("Registro implementado");
             Application.Run(new Form1());
         }
     }
