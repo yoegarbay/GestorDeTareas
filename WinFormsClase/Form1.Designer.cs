@@ -1,4 +1,4 @@
-﻿namespace WinFormsClase
+namespace WinFormsClase
 {
     partial class Form1
     {
@@ -42,6 +42,7 @@
             cmbCategoria = new ComboBox();
             lblContadorTareas = new Label();
             button4 = new Button();
+            btnEnProgreso = new Button();
             SuspendLayout();
             // 
             // dateTimePicker1
@@ -173,12 +174,24 @@
             button4.Text = "btnLimpiarCampos";
             button4.UseVisualStyleBackColor = true;
             // 
+            // btnEnProgreso
+            // 
+            btnEnProgreso.Font = new Font("Segoe UI", 15F);
+            btnEnProgreso.Location = new Point(123, 453);
+            btnEnProgreso.Name = "btnEnProgreso";
+            btnEnProgreso.Size = new Size(204, 40);
+            btnEnProgreso.TabIndex = 17;
+            btnEnProgreso.Text = "En Progreso";
+            btnEnProgreso.UseVisualStyleBackColor = true;
+            btnEnProgreso.Click += btnEnProgreso_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.foto_pppp;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 510);
+            Controls.Add(btnEnProgreso);
             Controls.Add(button4);
             Controls.Add(lblContadorTareas);
             Controls.Add(cmbCategoria);
@@ -215,5 +228,6 @@
         private ComboBox cmbCategoria;
         private Label lblContadorTareas;
         private Button button4;
+        private Button btnEnProgreso;
     }
 }
