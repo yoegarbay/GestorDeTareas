@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows.Forms;
 
 namespace WinFormsClase
@@ -128,7 +128,31 @@ namespace WinFormsClase
             MarcarPrioridadAlta();
         }
 
-        // Funcionalidad de registro
-        Console.WriteLine("Registro implementado");
+        // BOTÓN EN PROGRESO
+        private void btnEnProgreso_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex != -1)
+            {
+                int indice = listBox1.SelectedIndex;
+                string texto = listBox1.Items[indice].ToString();
+
+                if (!texto.Contains("⏳") && !texto.Contains("✔"))
+                {
+                    listBox1.Items[indice] = "⏳ " + texto;
+                }
+                else if (texto.Contains("✔"))
+                {
+                    MessageBox.Show("Esta tarea ya está completada.");
+                }
+                else
+                {
+                    MessageBox.Show("Esta tarea ya está en progreso.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selecciona una tarea para marcarla como En Progreso.");
+            }
+        }
     }
 }
