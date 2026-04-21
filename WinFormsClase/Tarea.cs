@@ -23,6 +23,9 @@ namespace WinFormsClase
             }
         }
 
+        public string Descripcion { get; set; }
+        public List<string> Etiquetas { get; set; } = new List<string>();
+
         // Atributos privados de la tarea
         private String Descripcion; // Almacena el detalle de la tarea
         private DateTime Fecha;     // Almacena la fecha de vencimiento o creación
